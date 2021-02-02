@@ -1,9 +1,9 @@
 package model;
 
 public class Utilities {
-    public static String stringReverse(String sentance) {
+    public static String stringReverse(String sentence) {
         String result = "";
-        String [] cars = sentance.split("\\s");
+        String [] cars = sentence.split("\\s");
 
 
 
