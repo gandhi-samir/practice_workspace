@@ -6,10 +6,10 @@ public class function {
         double value = 0;
         //x = 1
         double startingBase = Math.exp(1);
-        //1/x x = 2 ... 1/2
+        // 1/x for x = 2 = 1/2
         double endBase = Math.exp(0.5);
         double insideBase = 0;
-        //b -a / 2*n for area of trapezoid
+        // b-a / 2*n for area of trapezoid
         double trapezoid = (2 - 1) / (2 * f);
 
         if (f == 1.0){
