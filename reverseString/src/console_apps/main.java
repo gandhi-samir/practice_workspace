@@ -1,37 +1,28 @@
 package console_apps;
 
+import model.Utilities;
+
+import java.util.Scanner;
+
 public class main {
 
     public static void main(String[] args) {
-       /*Scanner input = new Scanner(System.in);
+       Scanner input = new Scanner(System.in);
         System.out.println("enter # of elements");
-        int arrayLength = input.nextInt();
-        int [] arry = new int[arrayLength];
-        for (int i=0;i<arrayLength;i++){
-            System.out.println("enter a number");
-            arry[i] = input.nextInt();
-        }
+      String sentance = input.nextLine();
+        System.out.println(Utilities.stringReverse(sentance));
 
-        */
 
-    String x = "Hello";
-    String a = "hello";
+
+
         
 
         }
 
-   /* boolean isSame;
-    if (isSame = a.equalsIgnoreCase(x)){
-        System.out.println("hello");
-    }
-    else {
-        System.out.println("no");
-    }
-*/
 
 
 
 
 
     }
-}
+

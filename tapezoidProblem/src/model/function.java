@@ -1,6 +1,6 @@
 package model;
 
-import java.lang.*;
+
 public class function {
     public static double f(double f) {
         double value = 0;

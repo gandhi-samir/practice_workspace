@@ -17,7 +17,7 @@ public class main {
         System.out.println(integral);
 
 
-
+        input.close();
 
 
 

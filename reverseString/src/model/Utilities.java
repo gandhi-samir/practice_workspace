@@ -1,22 +1,20 @@
 package model;
 
 public class Utilities {
-    public static String stringReverse(int []arry) {
+    public static String stringReverse(String sentance) {
         String result = "";
-        int [] temp = new int[arry.length];
+        String [] cars = sentance.split("\\s");
 
-        for(int i = arry.length-1;i>=0;i--){
-            for (int j = 0; j< arry.length;j++){
-                temp[j]=arry[i];
+
+
+        for (int i = cars.length-1; i >=0;i--) {
+            if (i == 0) {
+                result += cars[i];
+            } else {
+                result += cars[i] + " ";
             }
         }
-
-            result=""+temp[1]+" "+temp[2];
-
-
-
-
+        result=result.trim();
         return result;
-
     }
 }
