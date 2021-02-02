@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/randomText"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tic" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="121dp"
+        android:layout_height="119dp"
+        android:onClick="userPush1"
+        android:text="Button"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="123dp"
+        android:layout_height="118dp"
+        android:onClick="userPush2"
+        android:text="Button"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="115dp"
+        android:layout_height="118dp"
+        android:onClick="userPush3"
+        android:text="Button"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="270dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="121dp"
+        android:layout_height="119dp"
+        android:onClick="userPush4"
+        android:text="Button"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="122dp"
+        android:layout_height="118dp"
+        android:onClick="userPush5"
+        android:text="Button"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="115dp"
+        android:layout_height="118dp"
+        android:onClick="userPush6"
+        android:text="Button"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="270dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="119dp"
+        android:layout_height="119dp"
+        android:onClick="userPush7"
+        android:text="Button"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="120dp"
+        android:layout_height="117dp"
+        android:onClick="userPush8"
+        android:text="Button"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="115dp"
+        android:layout_height="118dp"
+        android:text="Button"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="270dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
