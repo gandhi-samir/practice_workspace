@@ -8,18 +8,18 @@ public class eulerMethod {
         double stepSize = 1 / n;
         System.out.println("Step Size: "+stepSize);
         double yNMinusOne = 0;
-        double yN;
-        double x = 0;
 
-        while (x < 1) {
-            //y(n)=(yn-1+((dy/dx)*stepsize))
-            // re wrote equation in easier from to code
-            yN = (yNMinusOne + ((0.5*(2-x) * (Math.sqrt(1 - x))) * stepSize));
-            //becomes y(n) becomes y(n-1) then gets used in the formula as y(n-1) for next y value
-            yNMinusOne = yN;
-            //x0 becomes x1 by increasing step size
-            x+= stepSize;
+        double xN = 0;
+        double xNMinus1=0;
+        // no need to increase step size since only using x and y is not used
+        //
+
+        for(int i =0; i < n;i++) {//loops through n times
+           xN=xNMinus1+(0.5*(2-xNMinus1)*Math.pow((1-xNMinus1),0.5)*stepSize);// cahnges value of xN in every iteration based on step size changing xNMinus1
+           xNMinus1=xN;// sets the value of xN to xNMinus1 for use in next iteration since formula is xn=xn-1...
+
+
         }
-        System.out.println("y(1)= "+yNMinusOne);
+        System.out.println("y(1)= "+xN);//print out value after loop iterations
     }
 }
